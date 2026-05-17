@@ -1,0 +1,28 @@
+{
+  "name": "deployrenderchapter3phonebook",
+  "version": "1.0.0",
+  "description": "3.10 Phonebook backend step 10",
+  "homepage": "https://github.com/gangya/deployRenderChapter3Phonebook#readme",
+  "bugs": {
+    "url": "https://github.com/gangya/deployRenderChapter3Phonebook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangya/deployRenderChapter3Phonebook.git"
+  },
+  "license": "MIT",
+  "author": "gangya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {}
+}
